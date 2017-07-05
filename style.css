@@ -1,0 +1,182 @@
+     *{
+	margin:0;
+	border:0;
+	padding:0;
+      }
+	h1
+	{
+	font-size: 300%;
+	font-family: "Times New Roman";
+	color:#FFFFFF;
+	align:center;
+	}
+	.myview{
+			margin:40px 120px 0 120px;
+			padding-bottom:200px;
+
+	}
+
+
+	header{
+		width:100%;
+		height:80px;
+		background-color:#990012;
+	}
+	
+	#header-inner{
+			display:text;
+			max-width:1700px;
+			
+	}
+	
+	 img{
+	 max-width:100%;
+         height:auto;
+	 width:auto;
+	 margin-bottom:-10px;
+	 
+	 }
+
+	body{
+		
+	background-image: url("cball.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;  
+	
+
+	}
+
+	
+	section{
+		width:100%;
+		float:left;
+		
+	} 
+	
+	article{
+			float:left;
+			margin:0 auto;
+			width:50%;
+ 			height:auto;
+			margin:40px auto;	
+	}
+	
+	aside{
+		float:right;
+		margin:0 auto;
+		width:50%;
+ 		height:auto;
+		margin:50px auto;
+	}
+
+	input[type=text] {
+    			width: 60%;
+			height:30%;
+    			padding: 12px 20px;
+    			//margin: 8px 0;
+   			display: inline-block;
+    			border: 1px solid #ccc;
+    			border-radius: 4px;
+  			box-sizing: border-box;
+	}
+
+	input[type=password] {
+    			width: 60%;
+			height:30%;
+    			padding: 12px 20px;
+    			//margin: 8px 0;
+   			display: inline-block;
+    			border: 1px solid #ccc;
+    			border-radius: 4px;
+  			box-sizing: border-box;
+	}
+
+	input[type=submit] {
+    			width: 60%;
+			height:30%;
+    			padding: 12px 20px;
+    			//margin: 8px 0;
+   			display: inline-block;
+    			color:#FFFFFF;
+    			border-radius: 4px;
+  			box-sizing: border-box;
+			shadow:none;
+			background-color:#990000;  
+    			border: none;
+			font-weight:600;
+			font-size:120%;
+	}
+	
+	
+	/*formDiv{
+		float:left;
+	}*/
+
+	#logo{
+		float:right;
+		margin-right:20%;
+	}
+	table{
+		width:100%;
+		}
+	table td{
+			text-align:center;
+			padding:2%;
+
+		}
+
+	#eggDesc{
+		margin-left:7%;
+	}
+
+		hr {
+			  display: block;
+    			  margin-top: 1em;
+    			  margin-bottom: 1em;
+    			  margin-left: auto;
+    			  margin-right: auto;
+  			  width:80%;
+			  border-top: 1px solid #F6EEEE;
+	
+		}
+
+		#caption{
+			color:#F6EEEE;
+			font-weight:600;
+		}
+
+
+
+/* for iphone device */
+
+		@media screen and (max-width:600px){
+
+			#header-inner{
+			display:inline;
+			margin:auto;
+			}
+
+			#eggDesc{
+				display:none;
+			}
+
+			article{
+				width:100%;
+			}
+
+			aside{
+				width:100%;
+			}
+			#logo{
+				margin-left:12%;
+				
+				
+			}
+			
+
+	}
+		
+
+	
+
+
